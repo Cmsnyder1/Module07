@@ -1,0 +1,140 @@
+<html lang="en"><!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- App title -->
+    <title>Luigi's Italian Restaurant</title>
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Navigation bar -->
+  <header class="header" role="banner">
+    <!-- Logo -->
+      <img src="Luigis-Logo.png" alt="Luigi's Italian Restaurant" class="logo" aria-label="Home">
+      
+    </a>
+    <!-- Hamburger icon -->
+    <input class="side-menu" type="checkbox" id="side-menu" />
+    <label class="hamb" for="side-menu" aria-label="Menu">
+      <span class="hamb-line"></span>
+    </label>
+    <!-- Menu -->
+    <nav class="nav" role="navigation" aria-label="Main">
+      <ul class="menu">
+        <li><a href="#" aria-current="page">Our Menu</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">About Us</a></li>
+        <!-- Contact submenu -->
+        <li aria-haspopup="true">
+          <div class="subnav">
+            <a href="#" class="subnavbtn" aria-label="Contact" aria-controls="contact-submenu"
+              tabindex="0">Contact <i class="fa fa-caret-down"></i></a>
+            <ul class="subnav-content" role="menu" id="contact-submenu">
+              <li><a href="#" role="menuitem">Email</a></li>
+              <li><a href="#" role="menuitem">Twitter</a></li>
+              <li><a href="#" role="menuitem">Phone</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <!-- Main content -->
+    <main>
+      <style>
+body {
+  background-image: url("italian.food.png");
+   background-repeat: no-repeat;
+   z-index: -1;
+
+}
+</style>
+          <section id="food-menu">
+      <h2 class="food-menu-heading">Luigi's Favorites</h2>
+            <h3 class="food-menu-subheading">Our staff and chef's monthly picks recommended for you!</h3>
+            <h4 class="sub-subheading">Explore our full menu above</h4>
+      <div class="food-menu-container container">
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="eggplant.png" alt="Eggplant Parmesan" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Eggplant Parmesan</h2>
+            <p>
+              Our ripe eggplant cooked to perfection, topped with marinara, parmesan and walnuts, served with a side of pasta.
+            </p>
+            <p class="food-price">$7.50</p>
+          </div>
+        </div>
+
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="calzone.png"
+              alt="Veggie Calzone"
+            />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Veggie Calzone</h2>
+            <p>
+              Fresh bell peppers, onions, mushrooms, and olives wrapped up in a hot calzone breading.
+              quae.
+            </p>
+            <p class="food-price">$8.00</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img-2">
+            <img src="alfredo.png" alt="Shrimp and Spinach Alfredo" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Shrimp and Spinach Alfredo</h2>
+            <p>
+             Our creamy alfredo sauce with shrimp, spinach, and fettuccine.
+              
+            </p>
+            <p class="food-price">$8.95</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="risotto.png" alt="Shrimp Leek Risotto" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Shrimp Leek Risotto</h2>
+            <p>
+              Creamy risotto with marinated shrimp and leeks, white wine, and parmesan.
+            </p>
+            <p class="food-price">$10.00</p>
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="lasagna.png" alt="Bacon Lasagna" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Bacon Lasagna</h2>
+            <p>
+              A delicious twist on your favorite dish. Lasagna made with diced bacon in every layer.
+            </p>
+            <p class="food-price">$9.95
+          </div>
+        </div>
+        <div class="food-menu-item">
+          <div class="food-img">
+            <img src="ravioli.png" alt="Balsamic Mushroom Ravioli" />
+          </div>
+          <div class="food-description">
+            <h2 class="food-title">Balsamic Mushroom Ravioli</h2>
+            <p>
+              Portobello mushroom stuffed raviolio with an herby, buttery balsamic sauce.
+            </p>
+            <p class="food-price">$8.95</p>
+          </div>
+        </div>
+      </div>
+    </section>
+        </article>
+    </main>
+</body>
+</html>
